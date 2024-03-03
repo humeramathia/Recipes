@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url("cooking.jpg"); /* Background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-attachment: fixed; /* Fixed position */
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+h1 {
+  margin-bottom: 80px;
+  font-size: 36px;
+}
+
+input[type="text"] {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px; /* Rounded corners */
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #727151f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #a5a47ff4;
+}
+
+/* CSS styles for recipe output */
+#recipe {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 99px;
+  height: 190px; /* Set a fixed height */
+  
+}
+
+#recipe h2 {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: -8px;
+}
+
+#recipe ul {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+#recipe ul li {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#recipe hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
