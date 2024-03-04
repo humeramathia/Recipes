@@ -1,7 +1,7 @@
 document.getElementById('searchButton').addEventListener('click', searchRecipes);
 
 function searchRecipes() {
-  const apiKey = '0a8b3b6973ca4f7486f0f35881abbad8'; // Replace 'YOUR_API_KEY' with your actual Spoonacular API key
+  const apiKey = '0a8b3b6973ca4f7486f0f35881abbad8'; 
   const ingredients = document.getElementById('ingredientInput').value;
 
   fetch(`https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredients}&apiKey=${apiKey}`)
